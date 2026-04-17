@@ -32,14 +32,16 @@ elif [ "$menu" -eq 3 ]; then
 	echo "---- SEARCH STUDENTS ----"
 	echo " what's the student name you searching for"
 	read name2
-	if grep -A 1 $name2 students.txt; then 
+	if  grep -A 1 $name2 students.txt; then 
 		echo "found"
 	else 
 		echo "Not found"
 	fi
 elif [ "$menu" -eq 4 ]; then
+	echo "exiting...."
 	break
-	echo "exiting....."
+else 
+	echo "invalid choice"
 
 fi
 done
