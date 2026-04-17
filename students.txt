@@ -6,3 +6,7 @@ Age: 22
 Name: amin
 Age: 23
 -----------------
+---- STUDENTS LIST ----
+Name: alae
+Age: 29
+-----------------

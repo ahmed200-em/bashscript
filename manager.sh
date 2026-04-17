@@ -27,6 +27,7 @@ if [ "$menu" -eq 1 ]; then
 elif [ "$menu" -eq 2 ]; then
 	echo "---- SHOW STUDENTS ----"
 	cat students.txt
+	echo "-----------------------"
 elif [ "$menu" -eq 3 ]; then
 	echo "---- SEARCH STUDENTS ----"
 	echo " what's the student name you searching for"
